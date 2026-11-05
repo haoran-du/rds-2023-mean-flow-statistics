@@ -1,66 +1,94 @@
-RdS 2023: mean flow and turbulence statistics
-============================================
+Effect of morphology and an upstream tall building on the mean turbulence statistics of a street canyon flow
+============================================================================================================
 
-Independent Python reproduction tools for Du, Savory & Perret (2023),
-Building and Environment, https://doi.org/10.1016/j.buildenv.2023.110428.
-This repository concerns this paper only. MATLAB and the 2024/2025 code
-repositories are not runtime dependencies.
+Authors: Haoran Du, Eric Savory, and Laurent Perret
 
-Install and run
+Affiliations:
+
+* Haoran Du and Eric Savory: Department of Mechanical and Materials Engineering,
+  University of Western Ontario, London, Ontario, Canada.
+* Laurent Perret: Nantes Universite, Ecole Centrale de Nantes, CNRS, LHEEA,
+  UMR 6598, Nantes, France.
+
+Corresponding author: Haoran Du, hdu59@uwo.ca
+
+Published in Building and Environment (2023).
+Article: https://doi.org/10.1016/j.buildenv.2023.110428
+
+Code Repository
 ---------------
 
-From this repository directory, with Python 3.10 or newer::
+This repository contains Python routines for the mean-flow and turbulence
+statistics of the Rue des Suisses (RdS) street canyon. The workflow reads
+the PIV and hot-wire measurements and saved statistical outputs to produce
+velocity profiles, contour plots, spectra and sectional air fluxes.
+
+This is a code-only release. Experimental data, processed arrays and
+generated figures are supplied or produced separately.
+
+Repository layout
+-----------------
+
+* ``src/rds2023/analysis.py``: statistical profiles, contours, spectra and flux plots.
+* ``src/rds2023/statistics.py``: velocity moments, stresses and sectional fluxes.
+* ``src/rds2023/raw.py``: processing of instantaneous XZ PIV fields.
+* ``src/rds2023/hwa.py``: hot-wire processing and spectral analysis.
+* ``src/rds2023/io.py``: measurement-file readers and array conventions.
+* ``data/README.rst``: expected inputs and directory layout.
+* ``tests/``: automated tests for the Python routines.
+* ``docs/``: implementation and processing notes.
+
+Setup
+-----
+
+Use Python 3.10 or later. From the repository directory::
 
     python -m venv .venv
-    # Linux/macOS: source .venv/bin/activate
-    # Windows PowerShell: .venv\Scripts\Activate.ps1
-    python -m pip install -e ".[test]"
-    python -m pytest -q
-    rds2023 reproduce --data-root "/path/to/DATA" --output outputs/paper
-    rds2023 reproduce --data-root "/path/to/DATA" --output outputs/legacy --normalization legacy
-    rds2023 validate-xz --data-root "/path/to/DATA" --output outputs/raw_txt --source txt
-    rds2023 validate-xz --data-root "/path/to/DATA" --output outputs/raw_mat --source mat
-    rds2023 validate-hwa --data-root "/path/to/DATA" --output outputs/hwa --b6-policy saved-zero
 
-Data are external and read-only. The same DATA layout used by the original
-study is required; no drive letter or personal directory is hardcoded.
-``python -m rds2023.cli`` is equivalent to the ``rds2023`` entry point.
+Activate the environment on Linux/macOS::
 
-Scope and verified baseline
----------------------------
+    source .venv/bin/activate
 
-* Numerical figures corresponding to Figs. 2–10, with simplified layouts,
-  SI arrays, profile CSVs and explicit normalization: 165/165 checks.
-* Five cases and all 50,000 original XZ TXT snapshots: 70/70 checks.
-* Instantaneous XZ MATs with their actual case-specific crops: 46/46 checks.
-* Five raw HWA recordings with the saved-result processing: 35/35 checks.
+Or in Windows PowerShell::
 
-These are the validated pre-split data results, retained in
-``docs/validation_summary.json``. Splitting the repository does not by itself
-constitute another full-data rerun. Automated CI uses synthetic tests, not
-the unpublished experimental data. See ``docs/SPLIT_VERIFICATION.rst`` for
-checks performed after extraction.
+    .\.venv\Scripts\Activate.ps1
 
-B6h defaults to zeroing its historical anomalous interval, including trigger
-channels, before identifying camera triggers. This reconstructs saved
-statistics and spectra. ``--b6-policy recorded-replacement`` instead follows
-the available .m version and retains its documented mismatch. Neither mode
-changes original data. See ``docs/AUDIT_FINDINGS.rst``.
+Then install the package::
 
-The uncertainty table and manual geometry/optical-mask overlays are not
-fully reproduced. Historical crop, normalization and TKE-averaging
-differences are explicit; do not transfer these settings unexamined to a
-new experiment. The future idealised-campaign interface remains in the
-original research workspace, outside this published-paper repository.
+    python -m pip install -e .
 
-Contents and provenance
------------------------
+Run order
+---------
 
-``src/rds2023`` contains only the statistics, HWA, raw-frame and figure
-workflows. ``tests`` is data-independent. ``archive/matlab`` is a local-only
-byte-exact source archive; its public hash index is in ``docs``. Raw arrays,
-MATLAB originals and publisher PDFs are excluded from GitHub.
+1. Obtain the external measurement and statistical files listed in ``data/README.rst``.
+   Keep their original directory layout.
+2. Reconstruct the numerical plots corresponding to Figs. 2–10::
 
-See ``THIRD_PARTY.rst`` for redistribution status and ``CITATION.cff`` for
-this paper. Commands return status 1 when a validation fails; generated
-figures are not by themselves evidence that all checks passed.
+       rds2023 reproduce --data-root "/path/to/DATA" --output outputs/paper
+
+3. To recompute XZ statistics or hot-wire statistics from the original recordings::
+
+       rds2023 validate-xz --data-root "/path/to/DATA" --output outputs/xz --source txt
+       rds2023 validate-hwa --data-root "/path/to/DATA" --output outputs/hwa
+
+   Add ``--cases 6b`` to either command to process B6h only.
+
+All generated files are written to the selected output directory. ``outputs/``
+is ignored by Git. ``python -m rds2023.cli`` is an alternative to ``rds2023``.
+
+Processing scope
+----------------
+
+The default plots use the paper's reference scales. ``--normalization legacy``
+selects the earlier plotting-script convention. The hot-wire workflow defaults
+to the processing associated with the saved statistics and spectra.
+
+The numerical plots use simplified layouts. The uncertainty table and manual
+building outlines and optical masks are not included in this workflow.
+
+Data and citation
+-----------------
+
+Input files are external to this repository; their expected layout is given
+in ``data/README.rst``. Please cite the article linked above when using this
+code. Citation metadata are also provided in ``CITATION.cff``.
