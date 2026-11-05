@@ -1,0 +1,62 @@
+{
+  "source_repository": "https://github.com/haoran-du/rds-street-canyon-reproducibility",
+  "source_commit": "2bd418759368bdb305697ea354e62e99f257242f",
+  "verification": "AST comparison: computational functions/classes unchanged; imports, package names and CLI intentionally separated",
+  "checks": [
+    {
+      "source": "src/rds/paper2023.py",
+      "destination": "src/rds2023/analysis.py",
+      "source_sha256": "55da43e7f4b0de06ff709f33cf0c4d623ffe74567cc6b7492be3e8bbf33b1cd3",
+      "unchanged_function_or_class_bodies": [
+        "reproduce",
+        "plot_profiles",
+        "plot_contours",
+        "recover_flux",
+        "plot_hwa"
+      ]
+    },
+    {
+      "source": "src/rds/io.py",
+      "destination": "src/rds2023/io.py",
+      "source_sha256": "2bbf329356acf26cd9e87633a9eec96ef14793891acdcd2f69484aa7ab64e4c1",
+      "unchanged_function_or_class_bodies": [
+        "premultiplied_spectrum",
+        "one_mat",
+        "dantec",
+        "PlaneStatistics",
+        "statistics_path",
+        "read_statistics",
+        "instantaneous_mat",
+        "mat_blocks"
+      ]
+    },
+    {
+      "source": "src/rds/raw2023.py",
+      "destination": "src/rds2023/raw.py",
+      "source_sha256": "507a63789942a47b1384a2b79f794e5c5dc7ae0cf8d75a8ee1b77ab91c3475d7",
+      "unchanged_function_or_class_bodies": [
+        "text_blocks",
+        "validate_xz"
+      ]
+    },
+    {
+      "source": "src/rds/hwa.py",
+      "destination": "src/rds2023/hwa.py",
+      "source_sha256": "228e789c9c6f644ea78526e73bba5b7edeeb64d223f8164a782695dc1e2f9c43",
+      "unchanged_function_or_class_bodies": [
+        "corrected",
+        "welch_stream",
+        "validate_hwa"
+      ]
+    },
+    {
+      "source": "src/rds/statistics.py",
+      "destination": "src/rds2023/statistics.py",
+      "source_sha256": "742c4fa179388040fdd21a966460e5081ba88e3e315f6e777570a5bb737a95d6",
+      "unchanged_function_or_class_bodies": [
+        "Moments",
+        "directional_flux"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the 2023 paper associated with this repository."
+title: "RdS 2023: Mean flow and turbulence statistics"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/haoran-du/rds-2023-mean-flow-statistics"
+authors:
+  - family-names: Du
+    given-names: Haoran
+references:
+  - type: article
+    title: "Effect of morphology and an upstream tall building on the mean turbulence statistics of a street canyon flow"
+    authors:
+      - family-names: Du
+        given-names: Haoran
+      - family-names: Savory
+        given-names: Eric
+      - family-names: Perret
+        given-names: Laurent
+    year: 2023
+    doi: 10.1016/j.buildenv.2023.110428

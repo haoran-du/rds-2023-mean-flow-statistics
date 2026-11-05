@@ -1,0 +1,380 @@
+[
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/1block/block1_correlation.m",
+    "sha256": "fd00b064a017e4ed8f22a46391bb527dfbb979f1eae1ed2b7d57233e216388ca",
+    "lines": 198,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/1block/block1_effectiveU.m",
+    "sha256": "adcf6fc8ba85b9a281c13c3ce751213a5972400ee8cc3571e6d146cc93f1ed5b",
+    "lines": 99,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/2block/block2_correlation.m",
+    "sha256": "35e6cfd7e78edda9c5783887748c5258c1e74cacb06b59357c674588d3da8d8b",
+    "lines": 147,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/2block/block2_effectiveU.m",
+    "sha256": "b81344aeaacaeda9a9f6355686d97d6425a0463a420f02553121ab78efc538d5",
+    "lines": 99,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/3block/block3_correlation.m",
+    "sha256": "cf11fafcc22f83af1e87b4dcc5081638e73596c6e3813b7d9f824ed20598dd2e",
+    "lines": 147,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/3block/block3_effectiveU.m",
+    "sha256": "6779035f91f1f17e8ac1556d302a9466772e0fe899f53955085b9a51d579d482",
+    "lines": 99,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/6block/block6_correlation.m",
+    "sha256": "6e260ba656f65f5c10be39387e263701cd5946e461e69169411933634739f965",
+    "lines": 264,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/6block/block6_effectiveU.m",
+    "sha256": "339b074af7be589bab5e406fc2594a08cec6a96d35e01b01ac1be7792d8b208a",
+    "lines": 99,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/cathedral/cathedral_correlation.m",
+    "sha256": "386a3b119e34ba6397ef3cbe4db2782d3e13375a723dd0b0df0babd585ccdd36",
+    "lines": 226,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "ORIGINAL/RdS_PIV_XZ_ORIGINAL/cathedral/cathedral_effectiveU.m",
+    "sha256": "9adffbe045f05d3c9b5b41cdb52c2b98a9de0fad84589d6b3e4824291050c525",
+    "lines": 99,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/Blackman2016_Cube_HWA/Blackman2016_Cube_HWA_PSD.m",
+    "sha256": "e516e231257bb3d3776944037d149b88b0270fa643be9749c7d9fe52cdb81e40",
+    "lines": 42,
+    "candidate_group": "reference_data_or_other_projects",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_HWA_XZ/RdS_HWA_XZ_PREPROCESSING.m",
+    "sha256": "41c222d2a396a5817b0f2014423be90ce7f0f98c018e77b049ed6513d113240b",
+    "lines": 135,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_XZ/RdS_PIV_XZ_STATISTICAL_ERROR_PREPROCESSING.m",
+    "sha256": "246eb2f5ec459dc4fc47574581a65b40686aa884ff7c311e9cac06ad4cb086ba",
+    "lines": 586,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_XZ/RdS_PIV_XZ_STATISTICS_CONTOURS_PREPROCESSING.m",
+    "sha256": "deebadc4fdf227273698dd8099eff7f55a7c64d706dbb69ad9298445b7be326a",
+    "lines": 98,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_YZ/RdS_PIV_YZ_INSTANT_PREPROCESSING.m",
+    "sha256": "02c7cd467edd5cbc616b51165d5497827e9b0eff9c140d884276be211ea4d273",
+    "lines": 73,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_YZ/RdS_PIV_YZ_STATISTICAL_ERROR_PREPROCESSING.asv",
+    "sha256": "3d172dd170f43bc290ef1d1378ff72b0cb387936266675842cab92407ab3cba2",
+    "lines": 249,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_YZ/RdS_PIV_YZ_STATISTICAL_ERROR_PREPROCESSING.m",
+    "sha256": "e411e1fafbe0f44965005f89133cfa94dc54d21a650bf9840bfadb6ea7857b3f",
+    "lines": 251,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_YZ/RdS_PIV_YZ_STATISTICS_CONTOURS_PREPROCESSING.m",
+    "sha256": "9b93395d804db0e3d739e966e9c2e3453ef0cb7a105aa86829fa546d4715164d",
+    "lines": 88,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_YZ/XZYZ_Tu_centreline.asv",
+    "sha256": "6a50cd63bfffb56f866c2822ce2c4fa482640675f889904b0c7a97f8b4bcdafa",
+    "lines": 62,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "PREPROCESSING/RdS_PIV_YZ/XZYZ_Tu_centreline.m",
+    "sha256": "c7df312683789a6c7ca99d4ba4afa23c2e59414ae28083fca1a217183c8e7ebe",
+    "lines": 65,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_HWA_XZ_PSD/RdS_HWA_XZ_PSD_POSTPROCESSING.m",
+    "sha256": "2f542e4575b9219233226d58edb21eaf4b8db611dc0c8b6d0c093086ca03f627",
+    "lines": 406,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_HWA_XZ_STATISTICS/RdS_HWA_XZ_STATISTICS_POSTPROCESSING.m",
+    "sha256": "98d0afe4b435fecc7b3b5e1f495a6a7189f4e971be1da7e5f67709011c3cfe1f",
+    "lines": 293,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_MASSFLOWRATE/RdS_PIV_XZ_MASSFLOWRATE_POSTPROCESSING.m",
+    "sha256": "cd563a534191e7d7821b66d5d7eda840a8bd93eee108338fa1b46cc8765e9c24",
+    "lines": 263,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_CONTOURS/RdS_PIV_XZ_STATISTICS_CONTOURS_POSTPROCESSING.m",
+    "sha256": "00c6d012aa0d9b531a3e3bc5cdae5c9cd2b6b5c13b159cf17575743be75269fa",
+    "lines": 409,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_CONTOURS/customcolormap.m",
+    "sha256": "1ffce05f72287cf183475d0dd3b85901595753956cb992114ead1c80614a42bb",
+    "lines": 146,
+    "candidate_group": "shared_third_party_plotting",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/AllPIVStatistics2.m",
+    "sha256": "3f2e122a1ec10ba141b1c3ff10432a46d64d99a39be2bf29076050117840c6d3",
+    "lines": 247,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/block1_test.m",
+    "sha256": "cb4673aadbf43ec97b9a0433c4cbbac372d63ec4b5e6bf77f97e3bc98d6d3a12",
+    "lines": 816,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/block2_test.m",
+    "sha256": "278c20196510f4f063e80bb8cd2553fe8683e360f72dbfd9889fa2189e2dcf38",
+    "lines": 769,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/block3_test.m",
+    "sha256": "07b671aa171cc0a6c136bc3dbd979bc102a9953f2527c5b298898f04f40afffc",
+    "lines": 772,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/block6_test.m",
+    "sha256": "dc2cdc37388dd19fa73564f9fda60e77fa29792854cb85f425d33b2c1ff39195",
+    "lines": 795,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/c1hrcu_block1_comparison.m",
+    "sha256": "71b0d185f0b2a5f87268a49a840b6bb8704b6e915da9d831c08dca9f7b46c145",
+    "lines": 155,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/cathedral_test.m",
+    "sha256": "e5b6379fb8bb2b7774a853a6587fee833ca869fc8b52e9301160629d15b425c4",
+    "lines": 798,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_STATISTICS/RdS_PIV_XZ_STATISTICS_PROFILES/customcolormap.m",
+    "sha256": "1ffce05f72287cf183475d0dd3b85901595753956cb992114ead1c80614a42bb",
+    "lines": 146,
+    "candidate_group": "shared_third_party_plotting",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_YZ_STATISTICS_VALIDATION/RdS_PIV_XZ_YZ_STATISITCS_VALIDATION.asv",
+    "sha256": "d4c07c8fff5c69c3695edc68da9ad95642eb0eaa181879d4ece29d707a232dbb",
+    "lines": 621,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_YZ_STATISTICS_VALIDATION/RdS_PIV_XZ_YZ_STATISITCS_VALIDATION.m",
+    "sha256": "6f9e34a3a2c3f45a608127af531d90a44089b43092b89e0ae116462b228efd7d",
+    "lines": 621,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_XZ_YZ_STATISTICS_VALIDATION/plot_shaded.m",
+    "sha256": "c84af8f2277ee646b1a68c5a76d6a94260dbb6f2a39014951c55b47cead7d363",
+    "lines": 88,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_YZ_STATISTICS/RdS_PIV_YZ_STATISTICS_NOV6/RdS_PIV_YZ_STATISTICS_CONTOURS_POSTPROCESSING.m",
+    "sha256": "16ed530e8797afc0eb13dbe535c69dd07d31301d3a83d15146bcd88dc8d456f4",
+    "lines": 316,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_YZ_STATISTICS/RdS_PIV_YZ_STATISTICS_NOV6/RdS_PIV_YZ_STATISTICS_CONTOURS_POSTPROCESSING_V2.m",
+    "sha256": "106980c5f444dc4005bbd2323c23dd257cfafdaea4b29528d3de981f618ca274",
+    "lines": 1283,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_YZ_STATISTICS/RdS_PIV_YZ_STATISTICS_NOV6/customcolormap.m",
+    "sha256": "1ffce05f72287cf183475d0dd3b85901595753956cb992114ead1c80614a42bb",
+    "lines": 146,
+    "candidate_group": "shared_third_party_plotting",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_YZ_STATISTICS/RdS_PIV_YZ_STATISTICS_OCT20/block6_wake_contour.m",
+    "sha256": "df9b8ab34682a5cdc380b778af0d17e63f4802bbbd2d89bcde48aaada921345c",
+    "lines": 346,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_YZ_STATISTICS/RdS_PIV_YZ_STATISTICS_OCT20/cathedral_wake_contour.m",
+    "sha256": "b91d2bfd972ecb2095e364b091d2e6ab4080f76411a275d5d10868e935dbfeb9",
+    "lines": 341,
+    "candidate_group": "2023_statistics_or_shared_preprocessing",
+    "third_party_review_flag": true,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  },
+  {
+    "path_relative_to_DATA": "POSTPROCESSING/RdS_PIV_YZ_STATISTICS/RdS_PIV_YZ_STATISTICS_OCT20/customcolormap.m",
+    "sha256": "1ffce05f72287cf183475d0dd3b85901595753956cb992114ead1c80614a42bb",
+    "lines": 146,
+    "candidate_group": "shared_third_party_plotting",
+    "third_party_review_flag": false,
+    "status": "archived unchanged; candidate classification is not proof of use in final publication",
+    "association": "candidate source or supporting variant; not proof of final figure use"
+  }
+]

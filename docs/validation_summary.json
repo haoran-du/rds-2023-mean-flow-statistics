@@ -1,0 +1,3706 @@
+{
+  "date": "2026-11-05",
+  "interpretation": "See STATUS.rst and AUDIT_FINDINGS.rst; partial validation is not full-paper reproduction.",
+  "runs": {
+    "2023_paper": {
+      "passed": 165,
+      "total": 165,
+      "failed": [],
+      "checks": [
+        {
+          "name": "1b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/U",
+          "pass": true,
+          "max_abs_error": 1.7763568394002505e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/V",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/W",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/uw",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/U",
+          "pass": true,
+          "max_abs_error": 1.7763568394002505e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/V",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/W",
+          "pass": true,
+          "max_abs_error": 1.3877787807814457e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/uw",
+          "pass": true,
+          "max_abs_error": 8.326672684688674e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/U",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/V",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/W",
+          "pass": true,
+          "max_abs_error": 1.3877787807814457e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/uw",
+          "pass": true,
+          "max_abs_error": 8.326672684688674e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/U",
+          "pass": true,
+          "max_abs_error": 1.3322676295501878e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/V",
+          "pass": true,
+          "max_abs_error": 1.6653345369377348e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/W",
+          "pass": true,
+          "max_abs_error": 1.6653345369377348e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/uw",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/U",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/V",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/W",
+          "pass": true,
+          "max_abs_error": 1.3877787807814457e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/uw",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 1.2836953722228372e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 3.8163916471489756e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 5.204170427930421e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 3.382710778154774e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 8.326672684688674e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 2.6645352591003757e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        }
+      ]
+    },
+    "2023_legacy": {
+      "passed": 165,
+      "total": 165,
+      "failed": [],
+      "checks": [
+        {
+          "name": "1b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/U",
+          "pass": true,
+          "max_abs_error": 1.7763568394002505e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/V",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/W",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/profile/uw",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/U",
+          "pass": true,
+          "max_abs_error": 1.7763568394002505e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/V",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/W",
+          "pass": true,
+          "max_abs_error": 1.3877787807814457e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/profile/uw",
+          "pass": true,
+          "max_abs_error": 8.326672684688674e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/U",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/V",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/W",
+          "pass": true,
+          "max_abs_error": 1.3877787807814457e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/profile/uw",
+          "pass": true,
+          "max_abs_error": 8.326672684688674e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/U",
+          "pass": true,
+          "max_abs_error": 1.3322676295501878e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/V",
+          "pass": true,
+          "max_abs_error": 1.6653345369377348e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/W",
+          "pass": true,
+          "max_abs_error": 1.6653345369377348e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/profile/uw",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/XZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/U/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/V/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/W/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/sigmaU/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/sigmaV/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/sigmaW/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/uw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/uv/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/vw/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ/k/export-to-MAT",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/U",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/V",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/W",
+          "pass": true,
+          "max_abs_error": 1.3877787807814457e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/sigmaU",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/sigmaV",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/sigmaW",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/profile/uw",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 1.2836953722228372e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 3.8163916471489756e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 5.204170427930421e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 3.382710778154774e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qw/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 8.326672684688674e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 2.6645352591003757e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 2.220446049250313e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qv/net=positive+negative",
+          "pass": true,
+          "max_abs_error": 1.1102230246251565e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/U",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/sigmaU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/skewU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/YZ300mm/kurtU",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        }
+      ]
+    },
+    "2023_raw_txt": {
+      "passed": 70,
+      "total": 70,
+      "failed": [],
+      "checks": [
+        {
+          "name": "1b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 9.769962616701378e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 4.4730885662147557e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 7.149836278586008e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 5.329070518200751e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 3.2585045772748344e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 6.5780714209040525e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 1.942890293094024e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 6.938893903907228e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.552713678800501e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 7.549516567451064e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.885780586188048e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 3.6637359812630166e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.773159728050814e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 6.167288901792745e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 3.58046925441613e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qw_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.469446951953614e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qw_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 1.0755285551056204e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qw_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 2.6020852139652106e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qv_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qv_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 5.329070518200751e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/Qv_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 7.105427357601002e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 2.299271883998699e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 5.012656956182582e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 4.884981308350689e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 2.936539900133539e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 4.052314039881821e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qw_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 4.5102810375396984e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qw_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 4.163336342344337e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qw_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 5.204170427930421e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qv_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qv_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 2.6645352591003757e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/Qv_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.608224830031759e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 1.1224354778960333e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 7.771561172376096e-16,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 1.3766765505351941e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 2.6978419498391304e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qw_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.2526065174565133e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qw_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 8.673617379884035e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qw_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 2.7755575615628914e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qv_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 1.2212453270876722e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qv_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 1.3322676295501878e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/Qv_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 7.771561172376096e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 1.5842882561400984e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 5.1736392947532295e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 5.10702591327572e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 3.1585845050585704e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 4.28129753871076e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qw_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 2.0816681711721685e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qw_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 1.214306433183765e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qw_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 5.204170427930421e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qv_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 2.4424906541753444e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qv_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.9968028886505635e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/Qv_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 4.440892098500626e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        }
+      ]
+    },
+    "2023_raw_xz": {
+      "passed": 46,
+      "total": 46,
+      "failed": [],
+      "checks": [
+        {
+          "name": "1b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 9.769962616701378e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 4.4730885662147557e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 7.149836278586008e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 5.329070518200751e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 3.2585045772748344e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 6.5780714209040525e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "1b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-17,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 1.942890293094024e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qw_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.469446951953614e-18,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv_total/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.1086244689504383e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv_p/full-recompute",
+          "pass": true,
+          "max_abs_error": 7.549516567451064e-15,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/Qv_n/full-recompute",
+          "pass": true,
+          "max_abs_error": 3.885780586188048e-16,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 3.6637359812630166e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.773159728050814e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 6.167288901792745e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 3.774758283725532e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 3.58046925441613e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "2b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 7.105427357601002e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 2.299271883998699e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 5.012656956182582e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 2.7422508708241367e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 4.052314039881821e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "3b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 7.105427357601002e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 1.184607967275042e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 7.771561172376096e-16,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 1.27675647831893e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 2.4091839634365897e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 3.3306690738754696e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "6b/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/instantaneousMAT/U/Dantec",
+          "pass": true,
+          "max_abs_error": 6.661338147750939e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/sigmaU/Dantec",
+          "pass": true,
+          "max_abs_error": 1.5842882561400984e-13,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/V/Dantec",
+          "pass": true,
+          "max_abs_error": 5.551115123125783e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/sigmaV/Dantec",
+          "pass": true,
+          "max_abs_error": 5.1736392947532295e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/W/Dantec",
+          "pass": true,
+          "max_abs_error": 8.881784197001252e-16,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/sigmaW/Dantec",
+          "pass": true,
+          "max_abs_error": 3.1585845050585704e-14,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/instantaneousMAT/uw/Dantec",
+          "pass": true,
+          "max_abs_error": 4.28129753871076e-15,
+          "atol": 2e-06,
+          "rtol": 2e-06
+        },
+        {
+          "name": "ca/firstMAT=firstRawTXT",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        }
+      ]
+    },
+    "2023_hwa": {
+      "passed": 29,
+      "total": 35,
+      "failed": [
+        {
+          "name": "6b/HWA/meanU",
+          "pass": false,
+          "max_abs_error": 0.0020185498782789857,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/stdU",
+          "pass": false,
+          "max_abs_error": 0.002421249612189147,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/skewU",
+          "pass": false,
+          "max_abs_error": 0.01398148417034828,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/kurtU",
+          "pass": false,
+          "max_abs_error": 0.03251831011644413,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/PSD",
+          "pass": false,
+          "max_abs_error": 0.004149080183803361,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/PSD_energy",
+          "pass": false,
+          "max_abs_error": 0.0033999335907681782,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        }
+      ],
+      "checks": [
+        {
+          "name": "1b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 5.411671111232863e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 6.642464356332312e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 2.4272889254106644e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 1.3598011605608917e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 1.7208456881689926e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.1272649480531527e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 4.644284956611955e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 4.3232084578903596e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.9123175265534087e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 1.340660915616354e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 2.656208586415687e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.0054179711005418e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 3.5620395522073522e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 3.2218672174622043e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.6025125670893203e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 7.613465413669473e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 2.808864252301646e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 7.382983113757291e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/meanU",
+          "pass": false,
+          "max_abs_error": 0.0020185498782789857,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/stdU",
+          "pass": false,
+          "max_abs_error": 0.002421249612189147,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/skewU",
+          "pass": false,
+          "max_abs_error": 0.01398148417034828,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/kurtU",
+          "pass": false,
+          "max_abs_error": 0.03251831011644413,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/HWA/PSD",
+          "pass": false,
+          "max_abs_error": 0.004149080183803361,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/PSD_energy",
+          "pass": false,
+          "max_abs_error": 0.0033999335907681782,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 3.938183112950355e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 4.475309012264006e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.4495293854110969e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 5.849987161354875e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 5.870304242705515e-15,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.2908563107316695e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        }
+      ],
+      "b6_policy": "recorded-replacement"
+    },
+    "2023_hwa_saved_zero": {
+      "passed": 35,
+      "total": 35,
+      "failed": [],
+      "checks": [
+        {
+          "name": "1b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 5.411671111232863e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 6.642464356332312e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 2.4272889254106644e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 1.3598011605608917e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "1b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 1.7208456881689926e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "1b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.1272649480531527e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 4.644284956611955e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 4.3232084578903596e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.9123175265534087e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 1.340660915616354e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "2b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 2.656208586415687e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "2b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.0054179711005418e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 3.5620395522073522e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 3.2218672174622043e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.6025125670893203e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 7.613465413669473e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "3b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 2.808864252301646e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "3b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 7.382983113757291e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 4.53903581387749e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 8.645306692756094e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.562294738022274e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 1.1156409129853273e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "6b/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 1.4530043834781736e-14,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "6b/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.3791190411893695e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/meanU",
+          "pass": true,
+          "max_abs_error": 3.938183112950355e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/stdU",
+          "pass": true,
+          "max_abs_error": 4.475309012264006e-13,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/skewU",
+          "pass": true,
+          "max_abs_error": 1.4495293854110969e-11,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/kurtU",
+          "pass": true,
+          "max_abs_error": 5.849987161354875e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/PSD_frequency",
+          "pass": true,
+          "max_abs_error": 0.0,
+          "atol": 1e-10,
+          "rtol": 1e-10
+        },
+        {
+          "name": "ca/HWA/PSD",
+          "pass": true,
+          "max_abs_error": 5.870304242705515e-15,
+          "atol": 1e-10,
+          "rtol": 1e-09
+        },
+        {
+          "name": "ca/HWA/PSD_energy",
+          "pass": true,
+          "max_abs_error": 1.2908563107316695e-12,
+          "atol": 1e-09,
+          "rtol": 1e-09
+        }
+      ],
+      "b6_policy": "saved-zero"
+    }
+  },
+  "provenance": "Pre-split validated workbench results; the split verification is recorded separately. Not a new full-paper reproduction."
+}
